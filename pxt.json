@@ -1,0 +1,31 @@
+{
+    "name": "led controller",
+    "description": "",
+    "dependencies": {
+        "adafruit-gemma-m0": "*",
+        "mouse": "*",
+        "color-sensor": "*",
+        "keyboard": "*",
+        "edge-connector": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.15.66",
+        "tag": "v0.15.66",
+        "commits": "https://github.com/microsoft/pxt-maker/commits/1439f19f93e7699d21b816a9b7ed60840b0d3924",
+        "target": "0.15.66",
+        "pxt": "8.1.1",
+        "targetId": "maker"
+    },
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "tsprj"
+}
